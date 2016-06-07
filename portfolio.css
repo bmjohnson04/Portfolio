@@ -1,0 +1,238 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#hero {
+  background: url("https://az629440.vo.msecnd.net/itinerary/sufl(5).jpg");
+  background-size: cover;
+  background-position: top;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+  text-align: center;
+}
+
+#hero img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+#hero nav {
+  width: 100%;
+  text-align:center;
+  color: #444;
+  font-family: helvetica;
+  padding: 10px 0 20px; 0;
+}
+
+.fixed {
+  position: fixed;
+  padding: 5px;
+  width: 100%;
+  background-color: rgba(3, 3, 3, 0.5);
+  height: auto;
+  
+}
+
+#hero a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#hero a:hover {
+  color: orange;
+}
+
+#hero li {
+  font-size: 1.2em;
+  display:inline-block;
+  margin: 0 50px;
+}
+
+#hero h1 {
+  text-align: center;
+  font-family: Arial;
+  color: Orange;
+  tex-align: center;
+  clear: both;
+  letter-spacing: 0.3em;
+  padding-top: 140px;
+  font-size: 2.5em;
+}
+
+#hero span {
+  background-color: rgba(0, 0, 0, 0.7);
+  ;
+  padding: 20px 30px;
+  border: 5px white solid;
+  display: inline-block;
+  text-align: center;
+}
+
+#hero p {
+  padding-top: 20px;
+  color: white;
+  font-family: Verdana;
+  letter-spacing: 0.4em;
+  font-weight: bold;
+}
+
+#service {
+  color: #222;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-family: Verdana;
+}
+
+#service .icons {
+  width: 300px;
+  margin-top: 30px;
+  text-align: center;
+  color: #555;
+}
+
+#service .icons h3 {
+  padding: 10px 0px 15px 0px;
+  color: #555;
+  text-decoration: underline;
+}
+
+#service h1,
+#about h1, #contact h1{
+  width: 100%;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 2.5em;
+  text-decoration: underline;
+}
+
+#service h1:hover {
+  color: orange;
+}
+
+#about {
+  height: 100vh;
+  width: 100%;
+  font-family: Verdana;
+  text-align: center;
+  display: flex;
+  color: #222;
+}
+
+#about #avatar {
+  width: 300px;
+  height: 300px;
+  background-image: url("me.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  background-color: orange;
+  background-blend-mode: multiply;
+  margin: 30px auto;
+}
+
+#about h4 {
+  color: coral;
+  font-family: helvetica;
+  letter-spacing: 0.2em;
+  font-size: 14px;
+  padding-bottom: 15px;
+  text-decoration: underline;
+}
+
+#about p {
+  color: #555;
+  margin: 0 auto;
+  width: 90%;
+  letter-spacing: 0.2em;
+}
+
+#about .side img {
+  width: 33%;
+  height: 500px;
+  margin: 140px 0 0 0;
+  overflow: hidden;
+}
+
+#about .center {
+  width: 33%;
+}
+
+#about h1:hover {
+  color: orange;
+}
+
+#contact {
+  height: 70vh;
+  width: 100%;
+  font-family: Verdana;
+  background-color: #222;
+  color: white;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#contact h1:hover {
+  color: orange;
+}
+
+.container {
+  margin: auto;
+  width: 50%;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    float: right;
+    width: 10%;
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    margin: 15px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align:center;
+}
+
+input[type=submit]:hover {
+    background-color: red;
+}
+
+#mbox {
+  height: 80px;
+}
+
+
+/*-------MEDIAQUERY!!-----*/
+
+@media screen and (max-width: 740px) {
+  .nav #hero {
+    width: 100%;
+  }
+  .icons {
+    width: 100%;
+  }
+  .center {
+    width: 100%;
+  }
+  .side {
+    width: 100%;
+
+  }
+}
