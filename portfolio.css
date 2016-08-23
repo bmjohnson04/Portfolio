@@ -178,6 +178,14 @@ hr {
   width: 68px;
 }
 
+.sec-services .fa-server-network {
+  width: 64px;
+}
+
+.sec-services .server-security {
+  width: 68px;
+}
+
 .sec-services h2 {
   margin: 1em 0;
 }
