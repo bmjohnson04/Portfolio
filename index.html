@@ -1,280 +1,484 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>BMJ Portfolio</title>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+
+    <title>Brand&Done</title>
+
+    <!-- <link rel="icon" href="http://24.media.tumblr.com/0caee7e4146a8a74e6a740d656ecb85d/tumblr_mnakva6Dds1rfjowdo1_500.gif"</link> -->
+    <link rel="icon" href="assets/icon.gif">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" type="text/css" href="css/portfolio.css"></link>
+
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+  	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700" rel="stylesheet" media="screen">
+  	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" media="screen">
+  	<!-- <link href="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" rel="stylesheet" media="screen"> -->
+  	<link href="http://s.mlcdn.co/animate.css" rel="stylesheet">
+    <link <href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.1/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    </hgroup>
+  	<link href="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"
+  	<meta name="stylesheet" content="width=device-width, initial-scale=1.0"/>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script> got the same erro anyway with ine 21-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  	<script src="https://use.fontawesome.com/a6dc1967ba.js"></script>
+  	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  	<script src="portfolio.js"></script>
+    <script src="contact.js"></script>
+  </head>
+
+  <body>
+
+
+    <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+  <ol class="carousel-indicators">
+      <li data-target="#carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel" data-slide-to="1"></li>
+      <li data-target="#carousel" data-slide-to="2"></li>
+      <li data-target="#carousel" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Carousel items -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <div class="slide-content">
+        <video poster="http://192.241.175.50/videos/london.jpg" webkit-playsinline id="bgvid" loop>
+          <source src="http://192.241.175.50/videos/london.webm" type="video/webm">
+          <source src="http://192.241.175.50/videos/london.mp4" type="video/mp4">
+        </video>
+        <div class="slide-overlay door">
+          <div class='title'>Ask-A-Techy</div>
+          <div class="description"> Do not ask what ask the why...#MiamiGardian #techgod
+         </div>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="slide-content">
+        <video poster="http://192.241.175.50/videos/boston.jpg" webkit-playsinline id="bgvid" loop>
+          <source src="http://192.241.175.50/videos/boston.webm" type="video/webm">
+          <source src="http://192.241.175.50/videos/boston.mp4" type="video/mp4">
+        </video>
+        <div class="slide-overlay door">
+          <div class='title'>PC-Quick-Fix </div>
+          <div class="description"> Sure there are alot of PC tech out here but how many of them bring you, Enterprise level tools found in todays TOP 100 companies. Diagnosing technical faster than any other in Dade County :P</div>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="slide-content">
+        <video poster="http://192.241.175.50/videos/split.jpg" webkit-playsinline id="bgvid" loop>
+          <source src="http://192.241.175.50/videos/split.webm" type="video/webm">
+          <source src="http://192.241.175.50/videos/split.mp4" type="video/mp4">
+        </video>
+        <div class="slide-overlay door">
+          <div class='title'>B4-Solutions</div>
+          <div class="description"> Before there was peace of mind, there was a propblem. Let B4-Solutions bridge your piece of mind. </div>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="slide-content">
+        <video poster="http://192.241.175.50/videos/samo.jpg" webkit-playsinline id="bgvid" loop>
+          <source src="http://192.241.175.50/videos/samo.webm" type="video/webm">
+          <source src="http://192.241.175.50/videos/samo.mp4" type="video/mp4">
+        </video>
+        <div class="slide-overlay door">
+          <div class='title'>Blog-VBlog</div>
+          <div class="description"> Say it loud or say soft, just say it. 10+ 'IT admon' converted Developer / inventor with the heart of a entrepreneur.  Sharing my perspectives and opinions in hopes you share yours.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+  <script src="js/index.js"></script>
+
+  <a class="carousel-control left" href="#carousel" data-slide="prev">
+   <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
 
+  <a class="carousel-control right" href="#carousel" data-slide="next">
+   <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
 
-	<link rel="stylesheet" type="text/css" href="portfolio.css"></link>
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet" media="screen">
-	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700" rel="stylesheet" media="screen">
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="screen">
-	<link href="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" rel="stylesheet" media="screen">
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js" rel="stylesheet" media="screen">
-	<meta name="stylesheet" content="width=device-width, initial-scale=1.0"/>
-	<script src="https://use.fontawesome.com/a6dc1967ba.js"></script>
-	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-	<script src="portfolio.js"></script>
+  </div>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse" role="button">
+            <span class="sr-only">Toggle Navigation</span>
 
-</head>
-<body>
-	<div class="wrapper">
-	  <header role="header">
-	    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-	      <div class="container">
-	        <div class="navbar-header">
-	          <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse" role="button">
-	            <span class="sr-only">Toggle Navigation</span>
+            <span class="icon-bar"></span>
 
-	            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
 
-	            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
 
-	            <span class="icon-bar"></span>
-	          </button>
+          <a href="#" class="navbar-brand">Bran<i>Done gets it</a>
+        </div>
 
-	          <a href="#" class="navbar-brand">Brandon</a>
-	        </div>
 
-	        <div class="collapse navbar-collapse">
-	          <ul class="nav navbar-nav navbar-right js-nav">
-	            <li><a href="#home">Home</a></li>
 
-	            <li><a href="#about">About</a></li>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right js-nav">
 
-	            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
 
-	            <li><a href="#folio">Folio</a></li>
+            <li><a href="#services">Services</a></li>
 
-	            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#folio">Folio</a></li>
 
-	            <li><a href="#contact">Contact</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
 
-	            <li><a href="http://sblog.org" target="_blank">Blog</a></li>
-	          </ul>
-	        </div>
-	      </div>
-	    </nav>
-	  </header>
+            <li><a href="#contact">Contact</a></li>
 
-	  <section id="home" class="sec-main">
-	    <h1 class="main-heading">Where creativity happens.</h1>
-	  </section>
+            <li><a href="index2.html" target="_blank">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-	  <section id="about" class="sec-about">
-	    <div class="container">
-	      <h1>About me</h1>
+<div>
+<!-- <section id="home" class="sec-main">
 
-	      <hr />
 
-	      <div class="row">
-	        <div class="col-sm-6 col-sm-offset-3">
-	          <p>Hi, my name is  Brandon and I am a Web Designer & Full Stack Developer based in Sunny south Florida. I love crafting beautiful web pages in HTML5, CSS3 and JavaScript or jQuery. My other skills include IT Administration, Net Security, and much more. If you want to hire me or just to talk, <a class="js-connect" href="#footer">connect</a> with me.</p>
-	        </div>
-	      </div>
-	    </div>
-	  </section>
-	  <section id="services" class="sec-services">
-	    <div class="container">
-	      <h1>Services</h1>
 
-	      <hr />
+<h1 class="main-heading">Where creativity and connectivity happens.</h1>
 
-	      <div class="row">
-	        <div class="col-sm-4">
-	          <i class="fa fa-4x fa-paint-brush"></i>
+</section> -->
 
-	          <h2 class="h3">Beautiful Design</h2>
+<section id="about" class="sec-about">
+  <div class="container">
+    <h1>About me</h1>
 
-	          <p>Every website is beautiful, unique and tailored to suit your needs and requirements.</p>
-	        </div>
+    <hr />
 
-	        <div class="col-sm-4">
-	          <i class="fa fa-4x fa-code"></i>
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
+        <p>Hi, my name is  Brandon and I am a Web Designer & Full Stack Developer based in Sunny south Florida. I love crafting beautiful web pages in HTML5, CSS3 and JavaScript or jQuery. My other skills include IT Administration, Net Security, and much more. If you want to hire me or just to talk, <a class="js-connect" href="#footer">connect</a> with me.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="services" class="sec-services">
+  <div class="container">
+    <h1>Services</h1>
 
-	          <h2 class="h3">Clean Code</h2>
+    <hr />
 
-	          <p>All websites are written in valid and clean HTML5 / CSS3 &amp; JavaScript (jQuery).</p>
-	        </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <i class="fa fa-4x fa-paint-brush"></i>
 
-	        <div class="col-sm-4">
-	          <i class="fa fa-4x fa-tablet"></i>
+        <h2 class="h3">Beautiful Design</h2>
 
-	          <h2 class="h3">Always Responsive</h2>
+        <p>Every website is beautiful, unique and tailored to suit your needs and requirements.</p>
+      </div>
 
-	          <p>All websites are responsive. They will look great on desktop, tablets and mobile phones too.</p>
-	        </div>
-	      </div>
-	    </div>
+      <div class="col-sm-4">
+        <i class="fa fa-4x fa-code"></i>
 
-			<hr />
+        <h2 class="h3">Clean Code</h2>
 
-			<div class="row">
-				<div class="col-sm-4">
-					<i class="fa fa-4x fa-server"></i>
+        <p>All websites are written in valid and clean HTML5 / CSS3 &amp; JavaScript (jQuery).</p>
+      </div>
 
-					<h2 class="h3">Systems Architecture</h2>
+      <div class="col-sm-4">
+        <i class="fa fa-4x fa-tablet"></i>
 
-					<p>Anything from simple SoHo setups to Medium to Large enterprise infrastructures.</p>
-				</div>
+        <h2 class="h3">Always Responsive</h2>
 
-				<div class="col-sm-4">
-					<i class="fa fa-4x fa-shield"></i>
+        <p>All websites are responsive. They will look great on desktop, tablets and mobile phones too.</p>
+      </div>
+    </div>
 
-					<h2 class="h3">Net Security</h2>
 
-					<p>Security is a tough cookie to crack but staying current with current practice &amp; implementations make a safe and reliable operation.</p>
-				</div>
+  <hr />
 
-				<div class="col-sm-4">
-					<i class="fa fa-4x fa-users"></i>
+  <div class="row">
+    <div class="col-sm-4">
+      <i class="fa fa-4x fa-server"></i>
 
-					<h2 class="h3">Professional Development</h2>
+      <h2 class="h3">Systems Architecture</h2>
 
-					<p>Available services and application to improve work-flow come on-line often, periodic training provides a baseline with new efficient methodology. </p>
-				</div>
-			</div>
-		</div>
-	  </section>
+      <p>Anything from simple SoHo setups to Medium to Large enterprise infrastructures.</p>
+    </div>
 
-	  <section id="folio" class="sec-folio">
-	    <div class="container">
-	      <h1>Previous Work</h1>
+    <div class="col-sm-4">
+      <i class="fa fa-4x fa-shield"></i>
 
-	      <hr />
+      <h2 class="h3">Net Security</h2>
 
-	      <div class="row">
-	        <div class="col-md-4">
-	          <img class="center-block" src="https://source.unsplash.com/Oog0wehKxYs/450x450" alt="By Håkon Sataøen" />
-	        </div>
+      <p>Security is a tough cookie to crack but staying current with current practice &amp; implementations make a safe and reliable operation.</p>
+    </div>
 
-	        <div class="col-md-4">
-	          <img class="center-block" src="https://source.unsplash.com/EfpOiZvPbT4/450x450" alt="By Samuel Zeller" />
-	        </div>
+    <div class="col-sm-4">
+      <i class="fa fa-4x fa-users"></i>
 
-	        <div class="col-md-4">
-	          <img class="center-block" src="https://source.unsplash.com/2aoVQXwLf3g/450x450" alt="By Scott Webb" />
-	        </div>
-	      </div>
+      <h2 class="h3">Professional Development</h2>
 
-	      <div class="row">
-	        <div class="col-md-4">
-	          <img class="center-block" src="https://source.unsplash.com/o2KD7JtqTlk/450x450" alt="By Has Bonk" />
-	        </div>
+      <p>Available services and application to improve work-flow come on-line often, periodic training provides a baseline with new efficient methodology. </p>
+    </div>
+  </div>
 
-	        <div class="col-md-4">
-	          <img class="center-block" src="https://source.unsplash.com/TV2ET43jK0w/450x450" alt="By Scott Webb" />
-	        </div>
+</section>
 
-	        <div class="col-md-4">
-	          <img class="center-block" src="https://source.unsplash.com/lZ2LB1s_z7s/450x450" alt="By Daniel Lozano Valdés" />
-	        </div>
-	      </div>
+<section id="folio" class="sec-folio">
+  <canvas id=c></canvas>
+  <div class="container">
+    <h1>Folio</h1>
+    <hr/>
+      <div class="container-fluid">
+      <div class="row-fluid">
+      <div class="span12">
 
-	      <div class="row">
-	        <div class="col-md-4">
-	          <img class="center-block" src="https://source.unsplash.com/o4qL4FuwN6I/450x450" alt="By Anthony DELANOIX" />
-	        </div>
+          <div class="page-header">
+              <h3>Browse through my work history</h3>
+              <p>When you love what you do its not work</p>
+          </div>
 
-	        <div class="col-md-4">
-	          <img class="center-block" src="https://source.unsplash.com/ej7RYC0ED_c/450x450" alt="By Patrick Pilz" />
-	        </div>
-
-	        <div class="col-md-4">
-	          <img class="center-block" src="https://source.unsplash.com/0G1r-Cg0zS8/450x450" alt="By Vita Vilcina" />
-	        </div>
-	      </div>
-	    </div>
-	  </section>
-
-	  <section id="testimonials" class="sec-testimonials">
-	    <div class="container">
-	      <h1>Clients said</h1>
-
-	      <hr />
-
-	      <div class="row">
-	        <div class="col-sm-4">
-	          <p class="text-center">" did great job when designing our website. It was pleasure to work with him and I'm sure we will hire him again."</p>
-
-	          <p class="text-right">&mdash; Marc Andressen</p>
-	        </div>
-
-	        <div class="col-sm-4">
-	          <p class="text-center">" proved to be truly creative designer who is able to create just stunning design I immediately fell in love with!"</p>
-
-	          <p class="text-right">&mdash; Emily Cooper</p>
-	        </div>
-
-	        <div class="col-sm-4">
-	          <p class="text-center">"I have worked with several different people and it always seemed like a pain—luckily I found  Brandon. Thank you !"</p>
-
-	          <p class="text-right">&mdash; Scott Grubber</p>
-	        </div>
-	      </div>
-	    </div>
-	  </section>
-
-	  <section id="contact" class="sec-contact">
-	    <div class="container">
-	      <h1>Hire me</h1>
-
-	      <hr />
-
-	      <div class="row">
-	        <div class="col-sm-4 col-sm-offset-4">
-	          <form class="center-block" action="#" method="post">
-	            <div class="form-group">
-	              <label class="sr-only" for="inputName">Full name</label>
-
-	              <input id="inputName" class="form-control" type="text" placeholder="Adam Smith" required />
-	            </div>
-
-	            <div class="form-group">
-	              <label for="inputMail" class="sr-only">Email Address</label>
-
-	              <input id="inputMail" class="form-control" type="email" placeholder="adam.smith@mail.com" required />
-	            </div>
-
-	            <div class="form-group">
-	              <label for="inputMessage" class="sr-only">Your Message</label>
-
-	              <textarea id="inputMessage" class="form-control" name="message" cols="30" rows="8" required></textarea>
-	            </div>
-
-	            <div class="form-group">
-	              <button class="btn btn-default center-block" type="submit" value="Hire me">Hire me</button>
-	            </div>
-	          </form>
-	        </div>
-	      </div>
-	    </div>
-	  </section>
-
-	  <footer id="footer">
-	    <div class="container">
-	      <ul class="soc-media-ul">
-	        <li>
-	          <a href="http://twitter.com/___BMJ___" class="fa fa-twitter" target="_blank"></a>
-	        </li>
-
-	        <li>
-	          <a href="https://plus.google.com/u/0/+BrandonJplus1" class="fa fa-google-plus" target="_blank"></a>
-	        </li>
-
-	        <li>
-	          <a href="https://www.linkedin.com/in/brandon310" class="fa fa-linkedin" target="_blank"></a>
-	        </li>
-
-	        <li>
-	          <a href="https://www.behance.net/" class="fa fa-behance" target="_blank"></a>
-	        </li>
-
-	        <li>
-	          <a href="mailto:brandon@askatechy.com" class="fa fa-envelope"></a>
-	        </li>
-	      </ul>
-	    </div>
-	  </footer>
-	</div>
-</body>
+          <div class="carousel carousel-fade slide" id="myCarousel">
+              <div class="carousel-inner">
+
+                  <div class="item active">
+
+                      <div class="bannerImage">
+                          <a href="#"><img src="assets/data-migration.jpg" alt="Data Center"></a>
+                      </div>
+
+                      <div class="caption row-fluid">
+                          <div class="span4"><h3>BIG DATA gotta move some how</h3>
+                          <a class="btn btn-mini" href="#">&raquo; Read More</a>
+                          </div>
+                      	<div class="span8"><p>Currently apart of a small team migrating data from server that have reached contractual end of life service and virtualizing previous network and server systems architecture. Teamwork make the dream work me and my partners working together in tandem orchestrating phase of this project across four time zones providing  that lil voice of confirmation in the ear of our on-site techs. All this is happening while most are slumbering.</p>
+                      	</div>
+                      </div>
+
+                  </div><!-- /Slide1 -->
+
+                  <div class="item">
+
+                      <div class="bannerImage">
+                          <a href="#"><img src="https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F20331940%2F90469271723%2F1%2Foriginal.jpg?w=1000&rect=0%2C42%2C1130%2C565&s=51e9e813447c29db80e3ec7369be97f0" alt=""></a>
+                      </div>
+
+                      <div class="caption row-fluid">
+                          <div class="span4"><h3>Line Break :/</h3>
+                          <a class="btn btn-mini" href="#">&raquo; Read More</a>
+                          </div>
+                      	<div class="span8"><p>I took a 9 month sabbatical to focus on the intricacy of application development. I that short time I learned Ruby, Ruby-on-Rails, Java script, HTML, and CSS styles. All what you see on this site was made from scratch. No Weebly or WIX or any site builder tool just line by line code. While gaining a new skill set I was embraced by a community senior and juror devs  open and whiling to share tips and trick to the trade. Low key I feels its not much that can go over my head in the tech industry.</p>
+                      	</div>
+                      </div>
+
+                  </div><!-- /Slide2 -->
+
+                  <div class="item">
+
+                      <div class="bannerImage">
+                          <a href="#"><img src="https://i.ytimg.com/vi/MtXd_lRI0AI/maxresdefault.jpg" alt=""></a>
+                      </div>
+
+                      <div class="caption row-fluid">
+                          <div class="span4"><h3>Upgrading transit from A-B</h3>
+                          <a class="btn btn-mini" href="#">&raquo; Read More</a>
+                          </div>
+                      	<div class="span8"><p>2015 was a good year for south Florida transit, after a few visit to local civic hack meet-up evolving big discussion around new development in improving customer experience. All the while I was involved with a project with the sole purpose of proving real time tracking for Broward County transit. The end result of this project will allow the buses to be seen in real time via a application to improving customer time and reliability.</p>
+                      	</div>
+                      </div>
+
+                  </div><!-- /Slide3 -->
+
+                        <div class="item">
+
+                              <div class="bannerImage">
+                                  <a href="#"><img src="http://edstechnologies.com/wp-content/uploads/2016/07/coming-soon.png" alt=""></a>
+                              </div>
+
+                              <div class="caption row-fluid">
+                                  <div class="span4"><h3>Want more</h3>
+                                  <a class="btn btn-mini" href="#">&raquo; Read More</a>
+                                  </div>
+                                <div class="span8"><p>More of my past work experience coming soon. I'm busy you now:)</p>
+                                </div>
+                              </div>
+
+                          </div><!-- /Slide4 -->
+
+                          <!-- <div class="item">
+
+                              <div class="bannerImage">
+                                  <a href="#"><img src="http://cl.ly/image/2J0z1t033B25/banner_02.jpg" alt=""></a>
+                              </div>
+
+                              <div class="caption row-fluid">
+                                  <div class="span4"><h3>Nullam Condimentum Nibh Etiam Sem</h3>
+                                  <a class="btn btn-mini" href="#">&raquo; Read More</a>
+                                  </div>
+                                <div class="span8"><p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+                                </div>
+                              </div>
+
+                          </div><!-- /Slide5 -->
+
+                          <!-- <div class="item">
+
+                              <div class="bannerImage">
+                                  <a href="#"><img src="http://cl.ly/image/1a3i3k0F3B3h/banner_03.jpg" alt=""></a>
+                              </div>
+
+                              <div class="caption row-fluid">
+                                  <div class="span4"><h3>Nullam Condimentum Nibh Etiam Sem</h3>
+                                  <a class="btn btn-mini" href="#">&raquo; Read More</a>
+                                  </div>
+                                <div class="span8"><p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+                                </div>
+                              </div>
+
+                          </div><!-- /Slide6 --> --> --> -->
+
+
+              </div>
+
+              <div class="control-box">
+                  <a data-slide="prev" href="#myCarousel" class="carousel-control left">‹</a>
+                  <a data-slide="next" href="#myCarousel" class="carousel-control right">›</a>
+              </div><!-- /.control-box -->
+
+          </div><!-- /#myCarousel -->
+
+      </div><!-- /.span12 -->
+      </div><!-- /.row -->
+      </div><!-- /.container -->
+
+
+      <!-- Delete This -->
+      <div class="footer">
+      <a href="http://simonalex.com/">&hearts; Redfrost</a> | <a href="http://twitter.github.com/bootstrap/">Get Bootstrap</a> | <a href="http://placehold.it/">Get Placeholder</a>
+          <p class="right">&lsaquo; Resize Window &rsaquo;</p>
+          <p>&nbsp;</p>
+          <p><strong><a href="http://codepen.io/redfrost/pen/dbrgk"  target="_blank">> SLIDING VERSION</a><strong></p>
+      </div>
+  </div>
+</section>
+
+<section id="testimonials" class="sec-testimonials">
+  <div class="container">
+    <h1>Clients said</h1>
+
+    <hr />
+
+    <div class="row">
+      <div class="col-sm-4">
+        <p class="text-center">" did great job when designing our website. It was pleasure to work with him and I'm sure we will hire him again."</p>
+
+        <p class="text-right">&mdash; Marc Andressen</p>
+      </div>
+
+      <div class="col-sm-4">
+        <p class="text-center">" proved to be truly creative designer who is able to create just stunning design I immediately fell in love with!"</p>
+
+        <p class="text-right">&mdash; Emily Cooper</p>
+      </div>
+
+      <div class="col-sm-4">
+        <p class="text-center">"I have worked with several different people and it always seemed like a pain—luckily I found  Brandon. Thank you !"</p>
+
+        <p class="text-right">&mdash; Scott Grubber</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="contact" class="sec-contact">
+  <div class="container">
+    <h1>Hire me</h1>
+
+    <hr />
+
+    <div class="row">
+      <div class="col-sm-4 col-sm-offset-4">
+
+        <form class="center-block" role="form" action="contact.php" method="post" id="contact_form" name="contact_form" enctype="text/plain">
+          <div class="form-group">
+            <label class="sr-only" for="inputName">Full name</label>
+
+            <input id="fullname" class="form-control" type="text" name="name" placeholder="Name" required />
+
+          </div>
+
+          <div class="form-group">
+            <label for="inputMail" class="sr-only">Email Address</label>
+            <input id="email" class="form-control" type="email" name="email" placeholder="Email" required />
+            <p class='text-danger'></p>
+          </div>
+
+          <div class="form-group">
+            <label for="inputsubject" class="sr-only">Subject</label>
+            <input class="form-control" type="subject" id="subject" name="subject" placeholder="Topic of discussion" required />
+            <p class='text-danger'></p>
+          </div>
+
+          <div class="form-group">
+            <label for="inputMessage" class="sr-only"></label>
+            <textarea class="form-control" name="message" id="message" cols="30" rows="8" placeholder="What can I do for you?" required></textarea>
+            <p class='text-danger'></p>
+          </div>
+
+          <div class="form-group">
+        		<label for="human" class="sr-only"></label>
+        		<div class="form-group">
+        			<input type="text" class="form-control" id="human" name="human" placeholder="Are You human?"required />
+              <p class='text-danger'</p>
+        		</div>
+        	</div>
+
+          <div class="form-group center-block text-center">
+            <button class="btn  fa fa-telegram fa-6" aria-hidden="true" id="btnSubmit" name="submit" type="submit" value="Hire me"></button>
+
+            </div>
+            </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="footer">
+  <div class="container">
+    <ul class="soc-media-ul">
+      <li>
+        <a href="http://twitter.com/___BMJ___" class="fa fa-twitter" target="_blank"></a>
+      </li>
+
+      <li>
+        <a href="https://plus.google.com/u/0/+BrandonJplus1" class="fa fa-google-plus" target="_blank"></a>
+      </li>
+
+      <li>
+        <a href="https://www.linkedin.com/in/brandon310" class="fa fa-linkedin" target="_blank"></a>
+      </li>
+
+      <li>
+        <a href="https://www.behance.net/" class="fa fa-behance" target="_blank"></a>
+      </li>
+
+      <li>
+        <a href="mailto:brandon@askatechy.com" class="fa fa-envelope"></a>
+      </li>
+    </ul>
+  </div>
+</footer>
+</div>
+
+
+
+  </body>
 </html>

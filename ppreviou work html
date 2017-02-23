@@ -1,0 +1,50 @@
+<div class="row">
+  <div class="col-md-4">
+    <img class="center-block" src="soon.png" alt="New Projects coming soon" />
+  </div>
+
+  <div class="col-md-4">
+    <img class="center-block" src="ISR.png" alt="ISRtransit" />
+    <a href="http://www.isrtransit.com/" target="_blank">ISRtransit</a>
+  </div>
+
+  <div class="col-md-4">
+    <img class="center-block" src="8x8.png" alt="8x8 VOIP" />
+    <a href="https://www.8x8.com/" target="_blank">8x8 VOIP</a>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-4">
+    <img class="center-block" src="hughesnet.png" alt="Hughesnet" />
+    <a href="http://internet.hughesnet.com/" target="_blank">Hughesnet</a>
+  </div>
+
+  <div class="col-md-4">
+    <img class="center-block" src="dadeschools.png" alt="Dade Shools" />
+    <a href="http://www.dadeschools.net/" target="_blank">Dade Schools</a>
+  </div>
+
+  <div class="col-md-4">
+    <img class="center-block" src="itau.png" alt="Itau Private Bank International" />
+    <a href="http://internet.hughesnet.com/" target="_blank">Itau Private Bank International</a>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-4">
+    <img class="center-block" src="hostway.png" alt="Hostway Cloud Storage" />
+    <a href="https://www.hostway.com" target="_blank">Hostway cloud Storage</a>
+  </div>
+
+  <div class="col-md-4">
+    <img class="center-block" src="umh.png" alt="UM Healthsystem" />
+    <a href="http://uhealthsystem.com/" target="_blank">Hostway cloud Storage</a>
+  </div>
+
+  <div class="col-md-4">
+    <img class="center-block" src="dell.png" alt="Dell.com"> </img>
+    <a href="https://www.dell.com/" target="_blank">Dell.Inc</a>
+
+  </div>
+</div>
